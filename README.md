@@ -1,11 +1,11 @@
-# 🔐 Cipher Machine / Шифровальная машина
+# 🔐 Encryption Machine / Шифровальная машина
 
 **[English](#english) | [Русский](#russian)**
 
 ---
 
 <a name="english"></a>
-## 🔐 Cipher Machine
+## 🔐 Encryption Machine
 
 **Design your own protocols. Encrypt your way.**
 
