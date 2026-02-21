@@ -450,10 +450,14 @@ def show_instruction():
 def main():
     protocols = load_protocols()
     while True:
-        print("\n" + "="*35)
-        print("  ШИФРОВАЛЬНАЯ МАШИНА v1.0")
-        print("  Powered by Dendr0_0")
-        print("="*35)
+        print("\n" + "="*40)
+        print("CUSTOM CYPHER PROTOCOL SYSTEM (CCPS)")
+        print("V1.0")
+        print("Безопасность не даётся — она создаётся.")
+        print("Создай свой шифр.")
+        print("="*40)
+        print("Сделано Dendr0_0")
+        print("="*40)
         print("1 – зашифровать")
         print("2 – расшифровать")
         print("3 – проверить работу")
@@ -461,11 +465,6 @@ def main():
         print("0 – выход")
         choice = input("> ").strip()
         if choice == "0":
-            print("\n" + "="*35)
-            print("  ШИФРОВАЛЬНАЯ МАШИНА v1.0")
-            print("  Powered by Dendr0_0")
-            print("="*35)
-            print("До свидания!")
             break
         elif choice == "4":
             protocols_menu(protocols)
